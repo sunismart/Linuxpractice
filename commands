@@ -1,0 +1,155 @@
+ adduser sunil
+    2  id
+    3  clear
+    4  ls
+    5  mkdir Rjay
+    6  ls
+    7  cd Rjay/
+    8  ls
+    9  vi java.txt
+   10  ls
+   11  cat java.txt
+   12  clear
+   13  pwd
+   14  cd ..
+   15  ls
+   16  mkdir TCS
+   17  mkdir Infosys
+   18  mkdir -p techm Blackcanvas Manjeera
+   19  ls
+   20  cd Infosys/
+   21  LS
+   22  ls
+   23  cat>1.txt 2.txt 3.txt
+   24  ls
+   25  clear
+   26  ls
+   27  vi 1.txt
+   28  ls
+   29  cat 1.txt
+   30  rm -f 1.txt
+   31  ls
+   32  cd ..
+   33  ls
+   34  pwd
+   35  useradd sai
+   36  users
+   37  whoami
+   38  who
+   39  id
+   40  passwd
+   41  ls
+   42  touch sun.txt raj.txt ravi.txt
+   43  ls
+   44  useradd mahesh
+   45  uid
+   46  ls
+   47  userdel sunil
+   48  cat /etc/passwd
+   49  clear
+   50  ls
+   51  ls -a
+   52  ls -ltr
+   53  cd TCS/
+   54  touch 2.txt 3.txt 4.txt
+   55  ls
+   56  cd ..
+   57  ls
+   58  rm -r TCS
+   59  ls
+   60  rmdir TCS
+   61  rmdir TCS --ignore-fail-on-non-empty
+   62  ls
+   63  rmdir -f TCS
+   64  rmdir -r TCS
+   65  rm -r TCS
+   66  rm -rf TCS
+   67  ls
+   68  cat raj.txt
+   69  vi raj.txt
+   70  cat raj.txt
+   71  rm -f raj.txt
+   72  ls
+   73  cd Infosys/
+   74  cd Manjeera
+   75  cd ..
+   76  cd Manjeera/
+   77  ls
+   78  cd ...
+   79  cd ..
+   80  ifconfig
+   81  ifconfig -a
+   82  ping google.com
+   83  hostname -i
+   84  uname -a
+   85  $ uname -s
+   86  $ uname -m
+   87  find ./directory_name -empty
+   88  Example:
+   89  find ./test -empty
+   90  //./test/test1
+   91  //./test/test2
+   92  ls
+   93  find ./sun
+   94  find ./sun.txt
+   95  find ./.txt
+   96  clear
+   97  ps
+   98  ls -l
+   99  chmod u+x ravi.txt
+  100  ls -l
+  101  chmod 777 sun.txt
+  102  ls -l
+  103  cat>test.txt
+  104  cat test.txt
+  105  vi test.txt
+  106  cat test.txt
+  107  lsblk
+  108  du
+  109  ls
+  110  mv ravi.txt rajeev.txt
+  111  ls
+  112  cat rajeev.txt
+  113  cat ravi.txt
+  114  cat>vikram.txt
+  115  cat vikram.txt
+  116  mv vikram.txt vijay.txt
+  117  ls
+  118  cat vijay.txt
+  119  useradd Prasanth
+  120  id Prasanth
+  121  groupadd Devops
+  122  cat /etc/group
+  123  usermod -aG Devops Prasanth
+  124  usermod -aG Devops sai
+  125  usermod -aG Devops mahesh
+  126  cat /etc/group
+  127  gpasswd -d sai Devops
+  128  groupdel Devops
+  129  cat /etc/group
+  130  useradd rani
+  131  clear
+  132  cat /etc/passwd
+  133  tail -3 /etc/passwd
+  134  useradd rakhi
+  135  useradd ramji
+  136  useradd manoj
+  137  useradd tulasi
+  138  tail -3 /etc/passwd
+  139  ls -l
+  140  chown manoj sun.txt
+  141  ls -l
+  142  ps
+  143  top
+  144  htop
+  145  kill
+  146  kill 46
+  147  killall
+  148  pstree
+  149  df
+  150  du
+  151  free
+  152  lscpu
+  153  lshw
+  154  lsblk
+  155  history
